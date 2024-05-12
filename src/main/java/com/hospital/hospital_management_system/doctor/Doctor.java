@@ -76,6 +76,7 @@ public class Doctor {
 	private LocalDateTime lastUpdatedDateTime;
 
 	@CreationTimestamp
+	@Column(updatable = false)
 	private LocalDateTime createDateTime;
 
 	/*
